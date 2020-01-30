@@ -13,7 +13,6 @@ import {
   NbButtonModule,
   NbCardModule,
   NbIconModule,
-  
   // NbProgressBarModule,
   // NbTabsetModule,
   // NbUserModule,
@@ -39,6 +38,6 @@ import {
     NbIconModule,
     // NbSelectModule,
     // NbListModule,
-  ]
+  ],
 })
 export class UserModule { }

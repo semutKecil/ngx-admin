@@ -6,7 +6,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'shopping-cart-outline',
     link: '/pages/dashboard',
     home: true,
-  },  
+  },
   {
     title: 'Setting',
     icon: 'settings-2-outline',
@@ -15,7 +15,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         title: 'User',
         icon: 'person-outline',
         link: '/pages/setting/user/list',
-      },      
+      },
     ],
   },
 ];

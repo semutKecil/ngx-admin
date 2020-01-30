@@ -25,12 +25,11 @@ const ELEMENT_DATA: PeriodicElement[] = [
 @Component({
   selector: 'ngx-user-list',
   templateUrl: './user-list.component.html',
-  styleUrls: ['./user-list.component.scss']
+  styleUrls: ['./user-list.component.scss'],
 })
 export class UserListComponent implements OnInit {
 
-  ngOnInit(){
-
+  ngOnInit() {
   }
 
   displayedColumns: string[] = ['select', 'position', 'name', 'weight', 'symbol', 'act'];
