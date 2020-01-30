@@ -18,7 +18,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'User',
-        icon:'person-outline',
+        icon: 'person-outline',
         link: '/pages/setting/user',
       },
       // {
