@@ -29,7 +29,13 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class UserListComponent implements OnInit {
 
+  revealed = false;
+
   ngOnInit() {
+  }
+
+  toggleView() {
+    this.revealed = !this.revealed;
   }
 
   displayedColumns: string[] = ['select', 'position', 'name', 'weight', 'symbol', 'act'];

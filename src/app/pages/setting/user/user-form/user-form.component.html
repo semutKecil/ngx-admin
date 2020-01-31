@@ -1,1 +1,36 @@
-<p>user-form works!</p>
+<div class="row py-2">
+    <div class="col-3">
+        Username
+    </div>
+    <div class="col-9">
+        <input type="text" nbInput fieldSize="medium" placeholder="Username">
+    </div>
+</div>
+<div class="row py-2">
+    <div class="col-3">
+        Fac
+    </div>
+    <div class="col-9">
+        <input type="text" nbInput fieldSize="medium" placeholder="Fac">
+    </div>
+</div>
+<div class="row py-2">
+    <div class="col-3">
+        Full Name
+    </div>
+    <div class="col-9">
+        <input type="text" nbInput fieldSize="medium" placeholder="Full Name">
+    </div>
+</div>
+<div class="row py-2">
+    <div class="col-3">
+        Extension
+    </div>
+    <div class="col-9">
+        <input type="text" nbInput fieldSize="medium" placeholder="Extension">
+    </div>
+</div>
+<div class="py-2">
+    <button [routerLink]="['/pages/setting/user/list']" class="mr-2" nbButton status="danger" size="tiny"><nb-icon icon="arrow-back-outline"></nb-icon>Cancel</button> 
+    <button [routerLink]="['/pages/setting/user/list']" nbButton status="success" size="tiny"><nb-icon icon="save-outline"></nb-icon>Save</button>  
+</div>
