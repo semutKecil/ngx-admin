@@ -9,6 +9,7 @@ import { UserAddComponent } from './user-add/user-add.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { HttpClientModule } from '@angular/common/http';
 import {
   NbButtonModule,
   NbCardModule,
@@ -34,6 +35,7 @@ import {
     MatCheckboxModule,
     MatPaginatorModule,
     NbInputModule,
+    HttpClientModule,
     // NbProgressBarModule,
     // NbTabsetModule,
     // NbUserModule,
